@@ -1,0 +1,15 @@
+[project]
+name = "google-calendar-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-api-python-client>=2.186.0",
+    "google-auth-httplib2>=0.2.1",
+    "google-auth-oauthlib>=1.2.3",
+    "langchain>=1.0.3",
+    "langchain-openai>=1.0.1",
+    "langgraph>=1.0.2",
+    "python-dotenv>=1.2.1",
+]
